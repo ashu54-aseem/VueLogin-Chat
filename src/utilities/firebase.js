@@ -3,13 +3,13 @@ import "firebase/auth";
 import "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDqgyYCM0cyTrrYHyHzvrKxvEm4OWNyGwE",
-    authDomain: "vue-login-and-chat.firebaseapp.com",
-    projectId: "vue-login-and-chat",
-    storageBucket: "vue-login-and-chat.appspot.com",
-    messagingSenderId: "55086396108",
-    appId: "1:55086396108:web:7d82b3ac95672561864869",
-    measurementId: "G-X77FHBRKR3"
+  apiKey: "AIzaSyDCdgb5YGEU6E__VENtW5IJLPPEiM6ZZJ8",
+  authDomain: "vue-full-course.firebaseapp.com",
+  databaseURL: "https://vue-full-course.firebaseio.com",
+  projectId: "vue-full-course",
+  storageBucket: "vue-full-course.appspot.com",
+  messagingSenderId: "164889229979",
+  appId: "1:164889229979:web:bffd7395881db11f3fe43e",
 };
 
 firebase.initializeApp(firebaseConfig);
